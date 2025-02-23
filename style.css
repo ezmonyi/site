@@ -1,0 +1,20 @@
+/* Optional custom styles */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1d1f21;
+    color: #f8f8f2;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #f92672; /* Terminal red */
+}
+
+a {
+    color: #66d9ef; /* Terminal blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

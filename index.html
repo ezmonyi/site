@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
-    </head>
-    <body>
-        <header class="terminal-logo">
-            <div class="logo terminal-prompt"><a href="/" class="no-style">Terminal CSS</a></div>
-        </header>
-        <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                <li><a href="/" class="menu-item"><span>Light</span></a><meta property="position"></li>
-                <li property="itemListElement" typeof="ListItem"><a href="/dark/" property="item" typeof="WebPage" class="menu-item"><span property="name">Dark</span></a><meta property="position" content="1"></li>
-                <li property="itemListElement" typeof="ListItem"><a href="/sans-serif/" property="item" typeof="WebPage" class="menu-item"><span property="name">Sans</span></a><meta property="position" content="2"></li>
-                <li property="itemListElement" typeof="ListItem"><a href="/sans-serif-dark/" property="item" typeof="WebPage" class="menu-item"><span property="name">Sans Dark</span></a><meta property="position" content="3"></li>
-                <li style="height: 28px;"><span></span></li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yi">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="node_modules/terminal.css/dist/terminal.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Optional for custom styles -->
+</head>
+<body class="terminal">
+
+    <!-- Header Section -->
+    <header class="terminal__header">
+        <h1>Yi</h1>
+        <p>I work on Machine Learning, Software Dev, Indie Game Dev and Music.</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="terminal__main">
+        
+        <!-- Writing Section -->
+        <section id="writing" class="terminal__section">
+            <h2>Writing</h2>
+            <ul>
+                <li><a href="/writing/post-1.html">Post Title 1</a></li>
+                <li><a href="/writing/post-2.html">Post Title 2</a></li>
+                <li><a href="/writing/post-3.html">Post Title 3</a></li>
             </ul>
-        </nav>
-    </body>
+        </section>
+
+        <!-- Music Section -->
+        <section id="music" class="terminal__section">
+            <h2>Music</h2>
+            <ul>
+                <li><a href="https://linktothealbum.com" target="_blank">My Latest Album</a></li>
+                <li><a href="https://soundcloud.com/yourname" target="_blank">SoundCloud</a></li>
+            </ul>
+        </section>
+
+        <!-- Video Section -->
+        <section id="videos" class="terminal__section">
+            <h2>Videos</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=yourvideoID" target="_blank">Video Title 1</a></li>
+                <li><a href="https://www.youtube.com/watch?v=yourvideoID" target="_blank">Video Title 2</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="terminal__footer">
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
